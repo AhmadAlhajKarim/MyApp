@@ -5,7 +5,7 @@ skip_files:
 - ^(.*/)?.*/RCS/.*$
 - ^(.*/)?\..*$
 - ^(.*/)?.*\.bak$
-runtime: java10
+runtime: java11
 env: standard
 manual_scaling:
   instances: 1
