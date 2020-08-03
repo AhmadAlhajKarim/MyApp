@@ -1,0 +1,7 @@
+.gcloudignore
+.git
+.gitignore
+
+node_modules
+module_data_import
+module_calendar
