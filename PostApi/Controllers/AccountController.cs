@@ -1,16 +1,15 @@
 ﻿using System;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.AspNetCore.Authorization;
-using RecipeApi.Models;
-using RecipeApi.DTOs;
 using PostApi.Models;
+using RecipeApi.DTOs;
 
 namespace RecipeApi.Controllers
 {
